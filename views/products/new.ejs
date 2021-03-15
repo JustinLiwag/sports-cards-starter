@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Product</title>
+</head>
+
+<body>
+    <h1>Create a new product</h1>
+    <form action="/products" method="post">
+        <label for="name"> Player Name</label>
+        <input type="text" name="name" placeholder="Enter player name">
+        <label for="price">Card Price</label>
+        <input type="number" name="price" placeholder="Enter price">
+        <label for="category">Select Sport</label>
+        <select name="category" id="">
+            <option value="basketball">Basketball</option>
+            <option value="football">Football</option>
+            <option value="baseball">Baseball</option>
+        </select>
+        <button>Submit</button>
+    </form>
+    <a href="/products">Go back</a>
+</body>
+
+</html>
